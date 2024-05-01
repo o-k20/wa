@@ -2,7 +2,7 @@ import numpy as np
 
 # Define the function F(x, y)
 def F(x, y):
-    return np.exp(1j * y) + 2 * np.exp(-2j * y / 3) * np.cos(np.sqrt(3) / 2 * x)
+    return np.exp(1j * y) + 2 * np.exp((-1j * y) / 2) * np.cos(np.sqrt(3) / 2 * x)
 
 # Define the matrix M(x, y)
 def matrix_M(x, y):
